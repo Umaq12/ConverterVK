@@ -53,7 +53,6 @@ fun ExchangeScreen(viewModel: ExchangeViewModel) {
     var toCurrencyExpanded by remember { mutableStateOf(false) }
 
     val currencies = listOf("USD", "EUR", "GBP")
-
     Column(
         modifier = Modifier
             .fillMaxSize()
